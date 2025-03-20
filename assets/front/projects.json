@@ -1,0 +1,191 @@
+[
+  {
+    "id": "gamelo",
+    "title": "Gamelo - HTML 5 Games",
+    "description": "An interactive website featuring engaging HTML5 games, offering seamless gameplay across devices for endless entertainment.",
+    "image": "/assets/front/img/gamelo-logo.png",
+    "bannerImage": "/assets/front/img/gamelo-banner.png",
+    "pageDesc": "<p><strong>Gamelo</strong> is an interactive website designed for gaming enthusiasts, featuring a wide variety of exciting HTML5 games. Whether you’re a casual gamer or a competitive player, Gamelo offers seamless gameplay across devices, ensuring endless entertainment. The platform is user friendly, providing instant access to numerous engaging games without the need for downloads or installations.</p><h2>Key Features</h2><ul><li><strong>Wide Game Collection:</strong> Enjoy a diverse selection of action, puzzle, and adventure games.</li><li><strong>Cross Platform Compatibility:</strong> Play games effortlessly on desktops, tablets, and smartphones.</li><li><strong>Instant Play:</strong> No downloads required—just click and play.</li><li><strong>Regular Updates:</strong> New games are added regularly to keep the excitement alive.</li></ul><h2>Why Choose Gamelo?</h2><p>Gamelo is perfect for players seeking fun, convenience, and variety. Its dynamic platform ensures smooth performance while providing a rich gaming experience for users of all ages.</p><h2>Experience the Fun Today!</h2><p>Ready to start playing? Visit Gamelo now and dive into a world of thrilling HTML5 games.</p>",
+    "liveLink": ""
+  },
+  {
+    "id": "wisume",
+    "title": "Wisume",
+    "description": "A smart resume building website powered by AI, helping users create professional and tailored resumes effortlessly.",
+    "image": "/assets/front/img/wisume-logo.png",
+    "bannerImage": "/assets/front/img/wisume-banner.png",
+    "pageDesc": "<p><strong>Wisume</strong> is a smart resume building website powered by AI, designed to help users create professional and tailored resumes effortlessly. With intelligent features, Wisume streamlines the resume creation process, ensuring job seekers can highlight their skills and experiences effectively.</p><h2>Key Features</h2><ul><li><strong>AI Powered Suggestions:</strong> Receive tailored content suggestions based on your skills and experience.</li><li><strong>Customizable Templates:</strong> Choose from a variety of professional designs to suit your career needs.</li><li><strong>Instant PDF Export:</strong> Quickly download your resume in a polished PDF format.</li><li><strong>Guided Writing Assistance:</strong> Step by step guidance to craft impactful resume sections.</li></ul><h2>Why Choose Wisume?</h2><p>Wisume is perfect for job seekers aiming to create standout resumes with minimal effort. Its AI powered insights ensure your resume meets industry standards while showcasing your strengths effectively.</p><h2>Start Building Your Resume Today!</h2><p>Get started now by visiting Wisume and create a winning resume in minutes.</p>",
+    "liveLink": ""
+  },
+  {
+    "id": "guess-the-rank",
+    "title": "Guess The Rank",
+    "description": "A unique website that predicts game ranks by analyzing gameplay videos, combining entertainment with AI powered insights.",
+    "image": "/assets/front/img/guess-logo.png",
+    "bannerImage": "/assets/front/img/guess-banner.png",
+    "pageDesc": "<p><strong>Guess The Rank</strong> is an engaging website that predicts game ranks by analyzing gameplay videos. Leveraging AI powered insights, it offers a fun and interactive way for gamers to test their rank guessing skills while learning about game strategies and performance patterns.</p><h2>Key Features</h2><ul><li><strong>AI Rank Prediction:</strong> Uses advanced algorithms to predict player ranks based on gameplay footage.</li><li><strong>Interactive Experience:</strong> Users can guess ranks and compare their predictions with AI generated results.</li><li><strong>Multiple Game Support:</strong> Compatible with popular competitive games across various genres.</li><li><strong>Community Engagement:</strong> Compete with friends or participate in ranking challenges for added fun.</li></ul><h2>Why Choose Guess The Rank?</h2><p>Perfect for gamers, streamers, and esports enthusiasts, <strong>Guess The Rank</strong> combines entertainment with educational insights, enhancing your understanding of competitive gaming.</p><h2>Test Your Skills Today!</h2><p>Visit Guess The Rank and challenge yourself to predict the right ranks!</p>",
+    "liveLink": ""
+  },
+  {
+    "id": "schedual-x",
+    "title": "SchedualX",
+    "description": "A powerful platform for scheduling messages and automating social media posts, ensuring timely and efficient content delivery.",
+    "image": "/assets/front/img/schedual-logo.png",
+    "bannerImage": "/assets/front/img/schedual-banner.png",
+    "pageDesc": "<p><strong>SchedualX</strong> is a powerful platform designed to simplify content scheduling and social media automation. With its intuitive interface, users can efficiently plan, schedule, and publish posts across multiple platforms to ensure consistent engagement with their audience.</p><h2>Key Features</h2><ul><li><strong>Automated Scheduling:</strong> Schedule posts in advance to maintain a consistent posting schedule.</li><li><strong>Multi Platform Support:</strong> Manage content for various social media platforms from one centralized dashboard.</li><li><strong>Smart Timing:</strong> Optimize post timings based on audience activity for maximum reach.</li><li><strong>Content Calendar:</strong> Visualize your posting schedule for improved planning and organization.</li></ul><h2>Why Choose SchedualX?</h2><p>Perfect for content creators, marketers, and businesses, <strong>SchedualX</strong> streamlines social media management, saving time while boosting engagement.</p><h2>Get Started Today!</h2><p>Start scheduling like a pro with SchedualX and take control of your social media strategy!</p>",
+    "liveLink": ""
+  },
+  {
+    "id": "quizy-club",
+    "title": "Quizy Club",
+    "description": "An engaging quiz website offering interactive questions, instant feedback, and fun challenges to test your knowledge.",
+    "image": "/assets/front/img/quiz-logo.png",
+    "bannerImage": "/assets/front/img/quiz-banner.png",
+    "pageDesc": "<p><strong>Quizy Club</strong> is an engaging quiz platform designed to challenge and entertain users with a variety of interactive questions. Whether you're a trivia enthusiast or a knowledge seeker, Quizy Club offers exciting challenges that keep you coming back for more.</p><h2>Key Features</h2><ul><li><strong>Diverse Question Categories:</strong> Explore topics ranging from science and history to pop culture and sports.</li><li><strong>Instant Feedback:</strong> Get immediate answers and explanations to enhance your learning experience.</li><li><strong>Fun Challenges:</strong> Participate in timed quizzes, scoreboards, and challenge your friends for added excitement.</li><li><strong>User Friendly Interface:</strong> Enjoy a clean, intuitive design that makes quiz taking seamless and enjoyable.</li></ul><h2>Why Choose Quizy Club?</h2><p>With its engaging content, rewarding experience, and diverse quiz topics, <strong>Quizy Club</strong> is perfect for boosting knowledge and having fun at the same time.</p><h2>Start Your Quiz Adventure!</h2><p>Dive into the world of quizzes and discover how much you really know with <strong>Quizy Club</strong>.</p>",
+    "liveLink": ""
+  },
+  {
+    "id": "emoji-kitchen",
+    "title": "Emoji Kitchen",
+    "description": "A creative platform that combines two emojis to generate unique and fun custom emoji mashups.",
+    "image": "/assets/front/img/emoji-logo.png",
+    "bannerImage": "/assets/front/img/emoji-banner.png",
+    "pageDesc": "<p><strong>Emoji Kitchen</strong> is a creative platform that blends two emojis to create unique and entertaining custom emoji mashups. Whether you're looking to express emotions in a fun way or add a playful twist to your conversations, Emoji Kitchen has you covered.</p><h2>Key Features</h2><ul><li><strong>Endless Combinations:</strong> Mix and match emojis to generate creative and unexpected results.</li><li><strong>User Friendly Interface:</strong> Easily create custom emojis with just a few clicks.</li><li><strong>Shareable Designs:</strong> Download and share your emoji mashups directly with friends and on social media.</li><li><strong>Fun and Creative:</strong> Perfect for adding humor, personality, and originality to your chats.</li></ul><h2>Why Choose Emoji Kitchen?</h2><p><strong>Emoji Kitchen</strong> offers a fun way to personalize your conversations, bringing creativity and laughter with every mashup.</p><h2>Start Creating Unique Emojis!</h2><p>Unleash your imagination with <strong>Emoji Kitchen</strong> and craft one of a kind emoji combinations today!</p>",
+    "liveLink": ""
+  },
+  {
+    "id": "rto-exam",
+    "title": "RTO Exam",
+    "description": "An intuitive RTO exam application designed to help users prepare for driving license tests with practice questions, mock exams, and learning resources.",
+    "image": "/assets/front/img/rto-logo.png",
+    "bannerImage": "/assets/front/img/rto-banner.png",
+    "pageDesc": "<p><strong>RTO Exam</strong> is an intuitive application designed to help users prepare for driving license tests effectively. It offers comprehensive resources and tools to ensure thorough preparation.</p><h2>Key Features</h2><ul><li><strong>Practice Questions:</strong> Access a vast collection of RTO exam questions to improve your knowledge.</li><li><strong>Mock Exams:</strong> Simulate real exam conditions with interactive mock tests.</li><li><strong>Learning Resources:</strong> Detailed guides and tips to help you understand traffic rules, road signs, and regulations.</li><li><strong>Progress Tracking:</strong> Monitor your performance and identify areas for improvement.</li></ul><h2>Why Choose RTO Exam?</h2><p><strong>RTO Exam</strong> provides a structured and efficient learning platform, ensuring you gain the confidence needed to pass your driving license test on the first attempt.</p><h2>Get Ready for Your RTO Exam!</h2><p>Prepare with <strong>RTO Exam</strong> and achieve success with ease!</p>",
+    "liveLink": ""
+  },
+  {
+    "id": "nfc-card-reader",
+    "title": "NFC Card Reader",
+    "description": "An efficient NFC card reader application that enables quick and secure reading, writing, and managing NFC enabled cards with ease.",
+    "image": "/assets/front/img/nfc-logo.png",
+    "bannerImage": "/assets/front/img/nfc-banner.png",
+    "pageDesc": "<p><strong>NFC Card Reader</strong> is an efficient application designed for quick and secure reading, writing, and managing NFC enabled cards with ease. Whether for personal use or business operations, this tool streamlines NFC interactions seamlessly.</p><h2>Key Features</h2><ul><li><strong>Fast Scanning:</strong> Instantly read NFC cards with a simple tap.</li><li><strong>Data Management:</strong> Easily view, write, and manage stored information.</li><li><strong>Enhanced Security:</strong> Ensures secure transactions and data handling.</li><li><strong>User Friendly Interface:</strong> Simple design for smooth and intuitive navigation.</li></ul><h2>Why Choose NFC Card Reader?</h2><p><strong>NFC Card Reader</strong> offers a reliable and hassle free solution for managing NFC enabled cards, making it ideal for secure data transfers and contactless solutions.</p><h2>Experience Seamless NFC Management!</h2><p>Discover the convenience of fast and secure NFC card interactions with <strong>NFC Card Reader</strong>.</p>",
+    "liveLink": ""
+  },
+  {
+    "id": "unit-converter",
+    "title": "All Unit Converter Calculator",
+    "description": "A versatile calculator and unit converter app that simplifies calculations and converts measurements across multiple categories with ease.",
+    "image": "/assets/front/img/all-unit-logo.png",
+    "bannerImage": "/assets/front/img/all-unit-banner.png",
+    "pageDesc": "<p><strong>All Unit Converter Calculator</strong> is a versatile tool designed to simplify calculations and convert measurements across multiple categories with ease. Ideal for students, professionals, and everyday users, this app ensures accuracy and efficiency.</p><h2>Key Features</h2><ul><li><strong>Comprehensive Conversion:</strong> Supports various units for length, weight, volume, temperature, and more.</li><li><strong>Easy to Use Interface:</strong> Intuitive design ensures seamless navigation for quick calculations.</li><li><strong>Accurate Results:</strong> Provides precise conversions for improved reliability.</li><li><strong>Time Saving Tool:</strong> Eliminates manual calculations, enhancing productivity.</li></ul><h2>Why Choose All Unit Converter Calculator?</h2><p>Whether you're working on scientific calculations, cooking recipes, or engineering projects, <strong>All Unit Converter Calculator</strong> delivers the perfect solution for your conversion needs.</p><h2>Make Calculations Effortless!</h2><p>Simplify complex conversions and achieve accurate results with <strong>All Unit Converter Calculator</strong>.</p>",
+    "liveLink": ""
+  },
+  {
+    "id": "cash-counter",
+    "title": "Cash Counter",
+    "description": "A smart cash counter application designed to efficiently count, manage, and track cash transactions with accuracy and ease.",
+    "image": "/assets/front/img/cash-logo.png",
+    "bannerImage": "/assets/front/img/cash-banner.png",
+    "pageDesc": "<p><strong>Cash Counter</strong> is a smart and efficient application designed to simplify cash counting, management, and tracking. Perfect for businesses, cashiers, and individuals handling frequent transactions, this app ensures accuracy and saves time.</p><h2>Key Features</h2><ul><li><strong>Fast Calculation:</strong> Quickly count various denominations with precision.</li><li><strong>Transaction Tracking:</strong> Easily log and manage cash flow records.</li><li><strong>Intuitive Interface:</strong> User friendly design ensures effortless navigation.</li><li><strong>Real Time Summary:</strong> Instantly view total cash value and breakdown details.</li></ul><h2>Why Choose Cash Counter?</h2><p>With its efficient features and user centric design, <strong>Cash Counter</strong> is the ideal tool for maintaining accurate cash records in businesses, retail shops, or personal use.</p><h2>Stay Organized, Stay Accurate!</h2><p>Experience seamless cash counting and management with <strong>Cash Counter</strong>.</p>",
+    "liveLink": ""
+  },
+  {
+    "id": "authenticator",
+    "title": "Diagon 2FA Authentication",
+    "description": "A secure 2FA authentication app, Diagon, providing robust protection through time based OTPs and secure key management for enhanced account security.",
+    "image": "/assets/front/img/authenticator-logo.png",
+    "bannerImage": "/assets/front/img/authenticator-banner.png",
+    "pageDesc": "<p><strong>Diagon 2FA Authentication</strong> is a secure and reliable two factor authentication app designed to safeguard your online accounts. By generating time based OTPs (One Time Passwords), Diagon ensures an extra layer of protection against unauthorized access.</p><h2>Key Features</h2><ul><li><strong>Time Based OTP Generation:</strong> Provides secure and time sensitive OTPs for enhanced account security.</li><li><strong>Secure Key Management:</strong> Ensures encrypted storage of authentication keys to prevent breaches.</li><li><strong>Multiple Account Support:</strong> Manage multiple 2FA accounts with ease using a single platform.</li><li><strong>Backup and Recovery:</strong> Enables secure backup options to restore 2FA keys if devices are lost or changed.</li></ul><h2>Why Choose Diagon 2FA Authentication?</h2><p>With <strong>Diagon 2FA Authentication</strong>, you can confidently protect your sensitive accounts, ensuring safe access through advanced security protocols.</p><h2>Secure Your Digital World!</h2><p>Experience ultimate account protection with <strong>Diagon 2FA Authentication</strong>.</p>",
+    "liveLink": ""
+  },
+  {
+    "id": "economic-calendar",
+    "title": "Economic Calendar",
+    "description": "An insightful economic calendar app that tracks global financial events, market trends, and key economic indicators to help users make informed decisions.",
+    "image": "/assets/front/img/economic-logo.png",
+    "bannerImage": "/assets/front/img/economic-banner.png",
+    "pageDesc": "<p><strong>Economic Calendar</strong> is an insightful app designed to keep users informed about global financial events, market trends, and key economic indicators. It provides real time updates, ensuring you stay ahead in the world of finance.</p><h2>Key Features</h2><ul><li><strong>Global Financial Events:</strong> Track significant economic events from around the world to anticipate market movements.</li><li><strong>Detailed Insights:</strong> Access comprehensive details on GDP releases, employment data, and interest rate changes.</li><li><strong>Custom Alerts:</strong> Set personalized alerts for major financial updates to never miss critical information.</li><li><strong>Market Analysis:</strong> Gain insights into market reactions and trends with expert commentary.</li></ul><h2>Why Choose Economic Calendar?</h2><p><strong>Economic Calendar</strong> empowers traders, investors, and business professionals to make informed decisions by staying updated with crucial economic data.</p><h2>Stay Informed, Stay Ahead!</h2><p>Start tracking financial events with <strong>Economic Calendar</strong> and gain an edge in the market.</p>",
+    "liveLink": ""
+  },
+  {
+    "id": "kids-learning",
+    "title": "Kids Learning Game",
+    "description": "A fun and interactive kids' learning game designed to enhance children's knowledge through engaging activities, puzzles, and educational content.",
+    "image": "/assets/front/img/kids-logo.png",
+    "bannerImage": "/assets/front/img/kids-banner.png",
+    "pageDesc": "<p><strong>Kids Learning Game</strong> is a fun and interactive educational app designed to enhance children's knowledge through engaging activities, puzzles, and entertaining content. It offers a joyful learning experience for kids of all ages.</p><h2>Key Features</h2><ul><li><strong>Interactive Learning:</strong> Engaging activities that promote cognitive development and problem solving skills.</li><li><strong>Fun Puzzles:</strong> Enjoy exciting puzzles that challenge and entertain young minds.</li><li><strong>Educational Content:</strong> Carefully designed lessons that teach numbers, alphabets, shapes, and more.</li><li><strong>Child Friendly Interface:</strong> Easy to use design ensuring a safe and enjoyable experience for kids.</li></ul><h2>Why Choose Kids Learning Game?</h2><p>This app blends education with entertainment, ensuring kids stay engaged while expanding their knowledge in a fun and interactive way.</p><h2>Start Learning Today!</h2><p>Encourage your child's growth with <strong>Kids Learning Game</strong> and turn learning into an exciting adventure!</p>",
+    "liveLink": ""
+  },
+  {
+    "id": "dating-video-call",
+    "title": "Dating Love Video Call",
+    "description": "A dynamic dating app with video call features, enabling users to connect, chat, and build meaningful relationships in a safe and engaging environment.",
+    "image": "/assets/front/img/live-video-logo.png",
+    "bannerImage": "/assets/front/img/live-video-banner.png",
+    "pageDesc": "<p><strong>Dating Love Video Call</strong> is a dynamic dating app that allows users to connect, chat, and build meaningful relationships through seamless video calls. Designed to foster genuine connections in a safe and engaging environment, this app offers a perfect platform for meeting new people.</p><h2>Key Features</h2><ul><li><strong>Video Call Integration:</strong> Enjoy real time face to face conversations with potential matches.</li><li><strong>Secure Environment:</strong> Ensures user privacy and security during chats and video calls.</li><li><strong>Smart Matching:</strong> Connect with compatible users based on shared interests and preferences.</li><li><strong>User Friendly Interface:</strong> Easy navigation for a smooth dating experience.</li></ul><h2>Why Choose Dating Love Video Call?</h2><p>With its advanced video chat feature and secure platform, <strong>Dating Love Video Call</strong> offers a safe and exciting way to meet new people and build lasting connections.</p><h2>Start Your Love Journey Today!</h2><p>Embrace new connections and meaningful conversations with <strong>Dating Love Video Call</strong>.</p>",
+    "liveLink": ""
+  },
+  {
+    "id": "keep-notes",
+    "title": "Keep Notes",
+    "description": "A simple and efficient note taking app that helps users capture, organize, and manage their ideas, tasks, and reminders effortlessly.",
+    "image": "/assets/front/img/keep-logo.png",
+    "bannerImage": "/assets/front/img/keep-banner.png",
+    "pageDesc": "<p><strong>Keep Notes</strong> is a simple and efficient note taking app designed to help users capture, organize, and manage their ideas, tasks, and reminders effortlessly. Whether you're jotting down quick thoughts or creating detailed lists, Keep Notes keeps everything organized and easily accessible.</p><h2>Key Features</h2><ul><li><strong>Easy Note Creation:</strong> Quickly create notes, checklists, and reminders with minimal effort.</li><li><strong>Organized Storage:</strong> Categorize your notes for better clarity and easy retrieval.</li><li><strong>Search Functionality:</strong> Instantly find important notes with a powerful search tool.</li><li><strong>Backup and Sync:</strong> Safely back up your notes and sync them across multiple devices.</li></ul><h2>Why Choose Keep Notes?</h2><p>With its user friendly design and powerful features, <strong>Keep Notes</strong> is the ideal tool for staying organized, productive, and stress free.</p><h2>Capture Your Ideas Effortlessly!</h2><p>Start using <strong>Keep Notes</strong> today to simplify your note taking experience and stay on top of your tasks.</p>",
+    "liveLink": ""
+  },
+  {
+    "id": "reels-ad-blocker",
+    "title": "Reels Ad Blocker",
+    "description": "A powerful Reel Ad Blocker that removes intrusive ads from social media reels, ensuring a seamless and distraction free viewing experience.",
+    "image": "/assets/front/img/reel-logo.png",
+    "bannerImage": "/assets/front/img/reel-banner.png",
+    "pageDesc": "<p><strong>Reels Ad Blocker</strong> is a powerful tool designed to enhance your social media experience by eliminating intrusive ads from reels. Enjoy uninterrupted content browsing without distractions, ensuring a smooth and enjoyable viewing experience.</p><h2>Key Features</h2><ul><li><strong>Ad Free Experience:</strong> Blocks annoying ads in social media reels for seamless content flow.</li><li><strong>Enhanced Performance:</strong> Improves app performance by reducing unwanted interruptions.</li><li><strong>Easy Integration:</strong> Simple setup for hassle free usage across multiple platforms.</li><li><strong>Privacy Protection:</strong> Ensures safe and secure browsing without compromising your data.</li></ul><h2>Why Choose Reels Ad Blocker?</h2><p><strong>Reels Ad Blocker</strong> ensures your social media time is spent engaging with content you love without the frustration of ads.</p><h2>Enjoy Distraction Free Browsing!</h2><p>Start using <strong>Reels Ad Blocker</strong> today for a cleaner, smoother social media experience.</p>",
+    "liveLink": ""
+  },
+  {
+    "id": "video-casting",
+    "title": "Video Casting",
+    "description": "A versatile video casting app that allows users to edit videos with stunning effects, filters, and transitions for professional quality content creation.",
+    "image": "/assets/front/img/video-casting-logo.png",
+    "bannerImage": "/assets/front/img/video-casting-banner.png",
+    "pageDesc": "<p><strong>Video Casting</strong> is a versatile video editing and casting app designed for content creators, vloggers, and social media enthusiasts. It offers a wide range of features to enhance your videos with professional quality effects, filters, and transitions.</p><h2>Key Features</h2><ul><li><strong>Advanced Editing Tools:</strong> Apply stunning visual effects, filters, and creative transitions to make your videos stand out.</li><li><strong>Easy Casting:</strong> Seamlessly cast your edited videos to TVs and other devices for presentations or entertainment.</li><li><strong>User Friendly Interface:</strong> Intuitive design for smooth editing and easy navigation.</li><li><strong>Multiple Format Support:</strong> Export videos in various formats to suit different platforms and devices.</li></ul><h2>Why Choose Video Casting?</h2><p><strong>Video Casting</strong> empowers users to create engaging content with minimal effort, ensuring every video looks polished and professional.</p><h2>Unleash Your Creativity!</h2><p>Transform your videos with <strong>Video Casting</strong> and impress your audience with stunning visuals.</p>",
+    "liveLink": ""
+  },
+  {
+    "id": "candle-stick",
+    "title": "Candle Stick Pattern",
+    "description": "A comprehensive app that analyzes candlestick patterns, helping traders identify market trends, signals, and potential investment opportunities with precision.",
+    "image": "/assets/front/img/candle-stick-logo.png",
+    "bannerImage": "/assets/front/img/candle-stick-banner.png",
+    "pageDesc": "<p><strong>Candle Stick Pattern</strong> is a comprehensive app designed for traders and investors to analyze candlestick patterns effectively. It helps users identify market trends, signals, and potential investment opportunities with precision.</p><h2>Key Features</h2><ul><li><strong>Pattern Recognition:</strong> Detects various candlestick patterns to predict bullish or bearish market trends.</li><li><strong>Market Insights:</strong> Provides in depth analysis of price movements to support informed decision making.</li><li><strong>Custom Alerts:</strong> Set alerts for key patterns to stay updated on potential trading opportunities.</li><li><strong>User Friendly Interface:</strong> Easy to understand visual representations for both beginner and experienced traders.</li></ul><h2>Why Choose Candle Stick Pattern?</h2><p>With its precise analysis and real time insights, <strong>Candle Stick Pattern</strong> empowers traders to make strategic moves confidently in the financial market.</p><h2>Maximize Your Trading Potential!</h2><p>Gain a competitive edge with <strong>Candle Stick Pattern</strong> and make smarter investment decisions today.</p>",
+    "liveLink": ""
+  },
+  {
+    "id": "card-holder",
+    "title": "Card Holder - Save Cards",
+    "description": "A secure card holder app that safely stores and manages your debit, credit, and membership cards for easy access and organized management.",
+    "image": "/assets/front/img/card-holder-logo.png",
+    "bannerImage": "/assets/front/img/card-holder-banner.png",
+    "pageDesc": "<p><strong>Card Holder - Save Cards</strong> is a secure and efficient app designed to manage your debit, credit, and membership cards in one place. It ensures your important card details are organized and easily accessible.</p><h2>Key Features</h2><ul><li><strong>Secure Storage:</strong> Safely store your card information with advanced encryption.</li><li><strong>Easy Access:</strong> Quickly retrieve your card details whenever you need them.</li><li><strong>Organized Management:</strong> Categorize and label cards for simplified navigation.</li><li><strong>Backup & Restore:</strong> Ensure your data is protected with seamless backup and restore functionality.</li></ul><h2>Why Choose Card Holder?</h2><p><strong>Card Holder - Save Cards</strong> offers a convenient and secure solution to keep your cards organized, eliminating the hassle of carrying multiple cards physically.</p><h2>Stay Organized and Secure!</h2><p>Manage your cards effortlessly with <strong>Card Holder - Save Cards</strong> today.</p>",
+    "liveLink": ""
+  },
+  {
+    "id": "ev-charging",
+    "title": "EV Charging",
+    "description": "An intuitive EV charging app that helps users locate charging stations, monitor charging status, and manage payments for a seamless electric vehicle experience.",
+    "image": "/assets/front/img/ev-charging-logo.png",
+    "bannerImage": "/assets/front/img/ev-charging-banner.png",
+    "pageDesc": "<p><strong>EV Charging</strong> is an intuitive app designed to enhance your electric vehicle experience by providing seamless access to charging stations, payment management, and real time monitoring.</p><h2>Key Features</h2><ul><li><strong>Station Locator:</strong> Easily find nearby EV charging stations with detailed information and directions.</li><li><strong>Real Time Monitoring:</strong> Track your charging status, estimated completion time, and costs.</li><li><strong>Payment Management:</strong> Securely manage and pay for charging sessions directly within the app.</li><li><strong>Station Availability:</strong> View live station status to avoid waiting in queues.</li></ul><h2>Why Choose EV Charging?</h2><p><strong>EV Charging</strong> ensures electric vehicle owners enjoy a hassle free experience with efficient station tracking and smooth payment solutions.</p><h2>Power Up with Ease!</h2><p>Make your EV charging journey simpler and smarter with <strong>EV Charging</strong> today.</p>",
+    "liveLink": ""
+  },
+  {
+    "id": "voice-search",
+    "title": "Voice Search",
+    "description": "A smart voice search app that enables users to search the web, apps, and content hands free with fast and accurate voice recognition.",
+    "image": "/assets/front/img/voice-logo.png",
+    "bannerImage": "/assets/front/img/voice-banner.png",
+    "pageDesc": "<p><strong>Voice Search</strong> is a smart and efficient app that allows users to search the web, apps, and content hands free with advanced voice recognition technology.</p><h2>Key Features</h2><ul><li><strong>Fast Voice Recognition:</strong> Instantly process your voice commands with high accuracy.</li><li><strong>Web & App Search:</strong> Easily search websites, apps, and media content without typing.</li><li><strong>Multi Language Support:</strong> Enjoy seamless voice search across multiple languages.</li><li><strong>User Friendly Interface:</strong> Simple and intuitive design for effortless navigation.</li></ul><h2>Why Choose Voice Search?</h2><p><strong>Voice Search</strong> offers a fast, accurate, and convenient way to find information, boosting productivity and simplifying browsing experiences.</p><h2>Discover the Power of Voice!</h2><p>Experience hands free browsing with <strong>Voice Search</strong> today.</p>",
+    "liveLink": ""
+  }
+]

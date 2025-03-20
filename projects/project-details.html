@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- metas -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Rajni Sakhreliya" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="keywords"
+      content="Rajni, Rajni sakhreliya, Android Developer, React.Js Developer, Android Training, React.Js Training, React js, React js training"
+    />
+    <meta
+      name="description"
+      content="Personal website of Rajni sakhreliya, Android developer, Reactjs developer, Programming Training, Web Design, Rajni Sakhreliya"
+    />
+    <!-- title -->
+    <title>Rajni Sakhreliya | Home</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../assets/front/img/favicon.ico"
+    />
+    <!-- plugin CSS -->
+    <link href="../assets/front/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets/front/css/font-awesome.css" rel="stylesheet" />
+    <link href="../assets/front/css/et-icon-style.css" rel="stylesheet" />
+    <link href="../assets/front/css/themify-icons.css" rel="stylesheet" />
+    <link href="../assets/front/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="../assets/front/css/magnific-popup.css" rel="stylesheet" />
+    <!-- theme css -->
+    <link href="../assets/front/css/style.css" rel="stylesheet" />
+  </head>
+  <!-- Body Start -->
+
+  <body
+    data-spy="scroll"
+    data-target="#navbar-collapse-toggle"
+    data-offset="70"
+    class=""
+  >
+    <!-- page loading -->
+    <div id="loading">
+      <div class="load-circle"><span class="one"></span></div>
+    </div>
+    <!-- End -->
+
+    <!-- Header -->
+    <div id="header-container"></div>
+    <script>
+      fetch("/header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("header-container").innerHTML = data;
+        })
+        .catch((error) => console.error("Error loading header:", error));
+    </script>
+    <!-- End Header -->
+
+    <main id="work">
+      <!-- Home Banner -->
+      <section class="page-title bg-gray-1">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-12 white-color text-center">
+              <div class="article-img text-center mb-4">
+                <img
+                  id="project-logo"
+                  width="200"
+                  title="Scraper 1"
+                  alt="Scraper 1"
+                />
+              </div>
+              <h1 id="project-title">Scraper 1</h1>
+              <h4
+                id="project-page-line"
+                style="line-height: 1.7"
+                class="mt-3"
+              ></h4>
+              <a
+                id="project-link"
+                target="_blank"
+                class="px-btn px-btn-theme w-25 mt-4"
+                type="submit"
+              >
+                <span>Visit</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Home Banner -->
+
+      <!-- Blog List -->
+      <div class="blog-listing">
+        <div class="container">
+          <div class="row align-items-start">
+            <div class="col-lg-12 m-15px-tb">
+              <article class="article">
+                <div class="article-img text-center">
+                  <img
+                    id="project-banner"
+                    width="700"
+                    title="Scraper 1"
+                    alt="Scraper 1"
+                  />
+                </div>
+                <div class="article-content mt-5">
+                  <div id="project-page-desc"></div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        async function loadProjectDetails() {
+          const params = new URLSearchParams(window.location.search);
+          const projectId = params.get("id");
+
+          try {
+            const response = await fetch("/assets/front/projects.json");
+            const projects = await response.json();
+
+            const project = projects.find((p) => p.id === projectId);
+
+            if (!project) {
+              document.body.innerHTML = "<h1>Project not found!</h1>";
+              return;
+            }
+
+            const liveLink = project.liveLink;
+
+            // Set content
+            const logoImage = document.getElementById("project-logo");
+            logoImage.src = project.image;
+            logoImage.alt = `${project.title}`;
+            logoImage.title = `${project.title}`;
+
+            document.getElementById("project-title").innerText = project.title;
+            document.getElementById("project-page-line").innerText =
+              project.description;
+            document.getElementById("project-link").href = liveLink;
+
+            const bannerImage = document.getElementById("project-banner");
+            bannerImage.src = project.bannerImage;
+            bannerImage.alt = `${project.title}`;
+            bannerImage.title = `${project.title}`;
+            document.getElementById("project-page-desc").innerHTML =
+              project.pageDesc;
+
+          } catch (error) {
+            console.error("Error loading project details:", error);
+          }
+        }
+
+        document.addEventListener("DOMContentLoaded", loadProjectDetails);
+      </script>
+      <!-- End Blog List -->
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-container"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer-container").innerHTML = data;
+        })
+        .catch((error) => console.error("Error loading footer:", error));
+    </script>
+    <!-- End Footer -->
+
+    <!-- jquery -->
+    <script src="../assets/front/js/jquery-3.2.1.min.js"></script>
+    <script src="../assets/front/js/jquery-migrate-3.0.0.min.js"></script>
+    <!-- end jquery -->
+
+    <!-- appear -->
+    <script src="../assets/front/js/jquery.appear.js"></script>
+    <!-- end appear -->
+
+    <!--bootstrap-->
+    <script src="../assets/front/js/popper.min.js"></script>
+    <script src="../assets/front/js/bootstrap.min.js"></script>
+    <!--end bootstrap-->
+    <!-- End -->
+
+    <!-- custom js -->
+    <script src="../assets/front/js/custom.js"></script>
+    <!-- end -->
+    <!-- Body End -->
+
+    <script
+      type="text/javascript"
+      src="../assets/front/js/counter/jquery.countTo.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="../assets/front/js/magnific/jquery.magnific-popup.min.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="../assets/front/js/typeit-master/typeit.min.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="../assets/front/js/owl-carousel/js/owl.carousel.min.js"
+    ></script>
+
+    <script src="../assets/panel/vendors/js/extensions/sweetalert2.all.min.js"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+      $(function () {
+        new TypeIt("#type-it", {
+          speed: 200,
+          loop: true,
+          strings: ["Full-Stack Developer", "Career Coach"],
+          breakLines: false,
+        });
+      });
+    </script>
+  </body>
+</html>

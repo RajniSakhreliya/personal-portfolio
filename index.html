@@ -1,1122 +1,499 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rajni Portfolio</title>
-
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <main>
-
-    <!-- SideBar -->
-    <aside class="sidebar" data-sidebar>
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80" style="margin-bottom: 1px;">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Rajni Sakhreliya</h1>
-          <p class="title">Android & ReactJS Developer</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-              <a href="mailto:rajnisakhreliya@gmail.com" class="contact-link">rajnisakhreliya@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+919727088364" class="contact-link">+91 97270 88364</a>
-            </div>
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1997-12-26">December 26, 1997</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Surat, Gujarat, India</address>
-            </div>
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/rajni-sakhreliya" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.instagram.com/rajni_sakhreliya" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.facebook.com/rajni.sakhreliya" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </aside>
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li> -->
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-        </ul>
-      </nav>
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            Developer with 5+ years of experience in creating intuitive and functional applications. Proven
-            ability to develop and maintain high-quality projects. Continuously learning new technologies and
-            utilizing the best tools. Detail-oriented team player with a track record of supporting dynamic teams.
-          </p>
-        </section>
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
-                <p class="service-item-text">
-                  Professional development of applications for Android.
-                </p>
-              </div>
-            </li>
-
-            <li class="service-item">
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
-                </p>
-              </div>
-            </li>
-          </ul>
-        </section>
-
-        <section style="display: flex; flex-direction: row;justify-content: center;">
-          <a href="https://drive.google.com/file/d/1RxKMCbV5CHIdNkgmyvp6kzKHZirEc2Db/view?usp=sharing">
-            <h3 class="h3" style="align-self: center; justify-content: center; justify-self: center;">
-              Download Resume
-            </h3>
-          </a>
-        </section>
-      </article>
-
-      <!--
-        - #RESUME ARTICAL
-      -->
-
-      <article class="resume" data-page="resume">
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Mahatma Gandhi University </h4>
-
-              <span>2015 — 2019 (Navsari)</span>
-
-              <p class="timeline-text">
-                Bachelor's Degree in Computer Science and Engineering
-              </p>
-            </li>
-          </ol>
-        </section>
-
-        <section class="timeline">
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-            <h3 class="h3">Key Achievements</h3>
-          </div>
-
-          <ol class="timeline-list">
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Team Leader (2022-2023)</h4>
-              <p class="timeline-text">
-                &#x2022; Led a team of 5+ developers, managed many projects, and handled client interactions, ensuring
-                95%
-                of projects were delivered on time.
-              </p>
-            </li>
-
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Project Manager (2023-2024)</h4>
-              <p class="timeline-text">
-                &#x2022; Managed 10+ projects, interacted with clients, and supervised a team of 6+ members.
-              </p>
-            </li>
-          </ol>
-        </section>
-
-        <section class="timeline">
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Technofy Infotech | Frontend Developer</h4>
-              <span>2024 — Present</span>
-              <ul>
-                <li class="timeline-text">
-                  &#x2022; Led a team of 5 developers, ensuring 100% of Android applications were delivered on time and
-                  within a
-                  budget of client.
-                </li>
-                <ul>
-                  <li class="timeline-text"><b>&#x2022; Quizy Club:</b> A quiz web application built using ReactJS</li>
-                  <li class="timeline-text"><b>&#x2022; Multi Calculator:</b> A multi-functional calculator built using
-                    ReactJS
-                  </li>
-                </ul>
-              </ul>
-            </li>
-
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">S&K Technology | Android Developer</h4>
-              <span>2022 — 2024</span>
-              <ul>
-                <li class="timeline-text">
-                  &#x2022; Developed 20+ high-quality Android applications, including:
-                </li>
-
-                <ul>
-                  <li class="timeline-text"><b>&#x2022; Business Card Scanner:</b> Reduced manual data entry time by 50%
-                    for
-                    users</li>
-                  <li class="timeline-text"><b>&#x2022; NFC Scan Card:</b> Achieved a 30% increase in scanning speed
-                    compared
-                    to previous versions</li>
-                  <li class="timeline-text"><b>&#x2022; Credit Card Compare:</b> Increased user savings by 20% by
-                    optimizing
-                    comparison algorithms</li>
-                  <li class="timeline-text"><b>&#x2022; UK Driving License App:</b> Reached 10,000+ downloads within the
-                    first
-                    three months</li>
-                </ul>
-
-                <li class="timeline-text">
-                  &#x2022; Coordinated testing and validation, reducing bugs by 25% and ensuring compliance with
-                  industry
-                  standards
-                </li>
-                <li class="timeline-text">
-                  &#x2022; Utilized the latest technologies to achieve 99% application uptime and a 20% performance
-                  improvement.
-                </li>
-              </ul>
-            </li>
-
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Diversity Infotech</h4>
-              <span>2019 — 2022</span>
-              <ul>
-                <li class="timeline-text">
-                  &#x2022; Developed and maintained various applications, including:
-                </li>
-
-                <ul>
-                  <li class="timeline-text"><b>&#x2022; Dating Apps:</b> Increased user retention by 15% through
-                    improved UX
-                    design
-                  </li>
-                  <li class="timeline-text"><b>&#x2022; TikTok Clone:</b> Gained 50,000+ users within 6 months of
-                    launch.
-                  </li>
-                  <li class="timeline-text"><b>&#x2022; Smart Notes:</b> Boosted productivity for users by 20% with new
-                    feature
-                    integrations.
-                  </li>
-                </ul>
-
-                <li class="timeline-text">&#x2022; Collaborated with designers and cross-functional teams, enhancing app
-                  performance by 30%</li>
-                <li class="timeline-text">&#x2022; Conducted thorough testing, debugging, and performance optimization,
-                  leading
-                  to a 4.8-star rating on
-                  the Google Play Store</li>
-              </ul>
-
-            </li>
-          </ol>
-        </section>
-
-        <section class="skill">
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Android</h5>
-                <data value="90"></data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 95%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">React JS</h5>
-                <data value="90"></data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Java</h5>
-                <data value="70"></data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Flutter</h5>
-                <data value="50"></data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 60%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">PHP</h5>
-                <data value="50"></data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Sql</h5>
-                <data value="50"></data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Javascript</h5>
-                <data value="50"></data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-            </li>
-
-          </ul>
-        </section>
-      </article>
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web Development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-            <button class="filter-select" data-select>
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-            </ul>
-          </div>
-
-          <ul class="project-list">
-
-            <!-- NFC Card -->
-            <li class="project-item active" data-filter-item data-category="applications">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-emv-card-reader.png" data-project-item-img alt="finance"
-                    loading="lazy">
-                </figure>
-
-                <h3 class="project-title" data-project-item-title>NFC Card Reader Wallet</h3>
-                <p class="project-category" data-project-item-category>Application</p>
-                <div data-project-item-description style="display: none;">
-                  The Credit Card Reader & NFC (EMV) Reader app
-                  was designed to allow users to read the public data stored on their NFC-compliant EMV banking cards,
-                  such as credit cards.
-                  </br>
-                  You can check the credit cards of different banks in more than 10 countries. You can get more details
-                  of credit cards. There is also a section where you can filter out credit cards based on categories
-                  like Shopping, Rewards, travel, Fuel, Essentials, and many more.
-                  </br>
-                  Also you can compare credit cards of different bank and different category wise. Please note, that we
-                  are showing details of the credit cards, we do not provide any cards or apply to any cards.
-                  </br></br>
-                  Features:
-                  <ul>
-                    <li>★ Enriched user experience with intuitive and easy-to-navigate UI</li>
-                    <li>★ Hassle-free store card details in the app</li>
-                    <li>★ Check Credit cards of different banks in various countries</li>
-                    <li>★ Check Credit cards of different categories like Shopping, Travel, Lifestyle, etc</li>
-                    <li>★ Bookmark the Credit card you like to check later</li>
-                    <li>★ Compare cards to find out which card is best for you</li>
-                  </ul>
-
-                </div>
-                <div data-project-item-languages style="display: none;">Android, Java,API Calling, XML, Sql, MVVM </div>
-                <div data-project-item-demo style="display: none;">
-                  https://drive.google.com/file/d/1HzG6AMuUWaq7MR0-kSmy1gDQw8aWxxe7/view?usp=sharing</div>
-              </a>
-            </li>
-
-            <!-- KidsLearning -->
-            <li class="project-item active" data-filter-item data-category="applications">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-kids-learning.png" data-project-item-img alt="finance"
-                    loading="lazy">
-                </figure>
-
-                <h3 class="project-title" data-project-item-title>Kids Learning</h3>
-                <p class="project-category" data-project-item-category>Application</p>
-                <div data-project-item-description style="display: none;">Online ABC kids tracing activity for preschool
-                  children's home schooling. Kids Learning - Preschool Game is a phonics and alphabet teaching app that
-                  makes learning fun for children, from toddlers all the way to preschoolers and kindergartners. It
-                  features a series of tracing games to help kids recognize letter shapes, associate them with phonic
-                  sounds, and put their alphabet knowledge to use in fun matching exercises.
-                  </br></br>
-                  Learning English letters, numbers, shapes, curves, slanting lines, straight lines, simple lines and
-                  free drawings, colors, and other basic vocabulary. Any toddler, kindergartner or preschool age child
-                  can learn English and the English alphabet and numbers simply kids tracing letters by following their
-                  finger.
-                  </br></br>
-                  Features:
-                  <ul>
-                    <li>★ A colorful early education app that helps children learn the English alphabet.</li>
-                    <li>★ Includes ABC tracing games, phonics pairing, letter matching, and more.</li>
-                    <li>★ Uppercase and lowercase letters to trace, listen to, and match.</li>
-                    <li>★ The smart interface helps kids focus on phonics and letters without accidentally exiting the
-                      game.</li>
-                    <li>★ No third-party ads, no in-app purchases, no tricks. Just pure educational fun!</li>
-                  </ul>
-
-                </div>
-                <div data-project-item-languages style="display: none;">Android, Java, XML, Sql, MVVM, Gaming</div>
-                <div data-project-item-demo style="display: none;">
-                  https://drive.google.com/file/d/1RkirMKvVw6NXuIkEI4VCY2BHumgSeE2_/view?usp=sharing</div>
-              </a>
-            </li>
-
-            <!-- UK RTO Exam -->
-            <li class="project-item active" data-filter-item data-category="applications">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-uk-driving-test.png" data-project-item-img alt="finance"
-                    loading="lazy">
-                </figure>
-
-                <h3 class="project-title" data-project-item-title>UK Driving License Test</h3>
-                <p class="project-category" data-project-item-category>Application</p>
-                <div data-project-item-description style="display: none;">
-                  Pass your DVSA driving theory test with the UK Driving Theory Test app. This comprehensive app is
-                  your one-stop solution, packed with the newest revision questions and answers for 2024, officially
-                  licensed by DVSA.
-                  </br></br>
-                  Features:
-                  <ul>
-                    <li>★ Latest Hazard Perception Clips </li>
-                    <li>★ Track your learning progress </li>
-                    <li>★ Choose between multiple training modes</li>
-                    <li>★ Gain free lifetime access</li>
-                  </ul>
-                </div>
-
-                <div data-project-item-languages style="display: none;">Android, Java, XML, Sql, MVVM, Api </div>
-                <div data-project-item-demo style="display: none;">
-                  https://drive.google.com/file/d/1gPe0cGnFcUcIkZ-HS95boil0c5PxLZWm/view?usp=sharing</div>
-              </a>
-            </li>
-
-            <!-- Cashcounter -->
-            <li class="project-item active" data-filter-item data-category="applications">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-cash-counter.png" data-project-item-img alt="finance"
-                    loading="lazy">
-                </figure>
-
-                <h3 class="project-title" data-project-item-title>Cash Counter</h3>
-                <p class="project-category" data-project-item-category>Application</p>
-                <div data-project-item-description style="display: none;">Easily count and keep track of your cash with
-                  the ultimate money counting app.
-                  </br></br>
-                  Cash Counter - Money Counter is specially designed for Indian user to calculate daily counter of a
-                  shop, or a user can use it for banking purpose. cash calculator money counter. This app is ads free
-                  version of cash counter and Calculation app.
-
-                  It is extremely simple to use and is meant to help you conduct your day-to-day business operations
-                  faster and easier than before, such as managing Jama Udhar, sending payment getting daily and
-                  time-wise reports. You can use the app fully offline/online, and you can backup whenever you get
-                  network. If you lose or change your phone, you can restore all your data.
-                  </br></br>
-                  Features:
-                  <ul>
-                    <li>★ Billing companies, Timber business, Restaurant</li>
-                    <li>★ DTH Recharge, Mobile Recharge and Electronics Repair and Accessories shops</li>
-                    <li>★ Kirana Shop, General Store, Grocery Store, Provision Store</li>
-                    <li>★ Bakery, Snacks Centers, Fruit and Juice Shops</li>
-                    <li>★ Jewellery shop, Jauhar, gold seller</li>
-                    <li>★ Garments, Hosiery, tailor shop</li>
-                    <li>★ Paan Shops, Chai Shop, Cigarette Dukaan</li>
-                    <li>★ Personal Credit Book Keeping</li>
-                    <li>★ Udhar Bahi Khata or Credit Ledger</li>
-                    <li>★ Credit Debit Book For personal use</li>
-                  </ul>
-                  </br>
-                  Just put the number of Banknotes And coins. The money counter will help you to sum up the total values
-                  of banknotes and coins. The summation of the entered money will be calculated and shown instantly.
-                  Especially useful for shopkeepers and small and medium businesses making sales on credit and len den.
-
-                </div>
-                <div data-project-item-languages style="display: none;">Android, Java, XML, Sql, MVVM </div>
-                <div data-project-item-demo style="display: none;">
-                  https://drive.google.com/file/d/1NC8bgMeU8YXLPoBxiuBSlPgnDsabXAvg/view?usp=sharing</div>
-              </a>
-            </li>
-
-            <!-- Emoji kitchen -->
-            <li class="project-item active" data-filter-item data-category="applications">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-emoji-kitchen.png" data-project-item-img alt="finance"
-                    loading="lazy">
-                </figure>
-
-                <h3 class="project-title" data-project-item-title>Emoji kitchen</h3>
-                <p class="project-category" data-project-item-category>Application</p>
-                <div data-project-item-description style="display: none;">The app has a unique feature that expresses
-                  your emotions in emojis that are built by you🎨. This is like an emojis merge game, like a kitchen of
-                  emojis. You can cook emojis👩‍🍳👨‍🍳 as per your need. That expresses your true love and your
-                  emotions. The DIY mix app makes you happier to express your feelings in emojis without using
-                  repetitive words🔥.
-                  </br></br>
-                  Features:
-                  <ul>
-                    <li>★ Unique mix emoji is ready for your use. Various emoji categories in Emoji Kitchen app include
-                      smileys, animals, food... and more.</li>
-                    <li>★ Select two emojis and merge them with over 500+ unique emojis to create cute emojis, DIY
-                      animal emojis, mix emoji with Emoji Kitchen DIY mix.</li>
-                    <li>★ Merge Emojis app is easy for all ages and has unlimited playtime.</li>
-                    <li>★ Emoji Kitchen Emoji Mix regularly updates with new emojis.</li>
-                    <li>10,000+ Combined Results: Emoji Kitchen DIY mix unique emoji creations and is completely free to
-                      play.</li>
-                  </ul>
-
-                </div>
-                <div data-project-item-languages style="display: none;">Android, Java, XML, Sql </div>
-                <div data-project-item-demo style="display: none;">
-                  https://drive.google.com/file/d/1XNHiolx2_KIKtWQPYAycQWu7V4E7kVLO/view?usp=sharing</div>
-              </a>
-            </li>
-
-            <!-- Candle Stick -->
-            <li class="project-item active" data-filter-item data-category="applications">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-candle-stick.png" data-project-item-img alt="finance"
-                    loading="lazy">
-                </figure>
-
-                <h3 class="project-title" data-project-item-title>Candle Stick Scanner</h3>
-                <p class="project-category" data-project-item-category>Application</p>
-                <div data-project-item-description style="display: none;">
-                  This app will teach you from A to Z, including advanced candlestick patterns and chart patterns.We aim
-                  to make top-tier financial education accessible to everyone, ensuring both absolute beginners and
-                  experienced traders can unlock new knowledge.
-                  </br>
-                  Embark on an extensive journey into the world of trading with our app. Our platform offers a wide
-                  array of tutorials covering various aspects of trading, from basic concepts to advanced strategies.
-                  </br>
-                  Professionals use candlestick patterns to predict market movements and maximize profits. With our app,
-                  you can leverage these powerful tools to enhance your trading success.
-                  </br></br>
-                  Features:
-                  <ul>
-                    <li>★ High-Quality Financial Education</li>
-                    <li>★ Comprehensive Tutorials</li>
-                    <li>★ Master Candlestick Patterns</li>
-                  </ul>
-                </div>
-
-                <div data-project-item-languages style="display: none;">Android, Java, XML, Sql, MVVM, Api </div>
-                <div data-project-item-demo style="display: none;">
-                  https://drive.google.com/file/d/1yeLinKm8cYwbkhasGbiZsKHqhcfbqlAu/view?usp=sharing</div>
-              </a>
-            </li>
-
-            <!-- Video Downloader -->
-            <li class="project-item active" data-filter-item data-category="applications">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-video-downloader.png" data-project-item-img alt="finance"
-                    loading="lazy">
-                </figure>
-
-                <h3 class="project-title" data-project-item-title>Video Downloader</h3>
-                <p class="project-category" data-project-item-category>Application</p>
-                <div data-project-item-languages style="display: none;">Android, Java, Sql, Api </div>
-                <div data-project-item-demo style="display: none;">
-                  https://drive.google.com/file/d/1o6hQ4DJOy5TppKMUfPt34MFmVFn14QcT/view?usp=sharing</div>
-              </a>
-            </li>
-
-            <!-- Fitness Workout -->
-            <li class="project-item active" data-filter-item data-category="applications">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-fitness-workout.png" data-project-item-img alt="finance"
-                    loading="lazy">
-                </figure>
-
-                <h3 class="project-title" data-project-item-title>Workout for Women</h3>
-                <p class="project-category" data-project-item-category>Application</p>
-                <div data-project-item-description style="display: none;">
-                  Get fit with the women workout - female fitness app! Sweat 7 mins a day to get a perfect bikini body!
-                  Women Workout - Female Fitness helps you burn belly fat, tone butt, slim legs, trim waistline and get
-                  in shape. Follow the home workout to feel the burn. Keep fit and be a better me!
-                  </br>
-                  Train your body, burn calories, lose weight, you will get a sexy body before you know it!
-                  </br></br>
-                  Features:
-                  <ul>
-                    <li>★ Workout at Home</li>
-                    <li>★ Customize Training</li>
-                    <li>★ Fat Burning Workouts & Hiit Workouts</li>
-                    <li>★ Fitness Coach</li>
-                    <li>★ No equipment needed</li>
-                    <li>★ Lose Belly Fat</li>
-                  </ul>
-                </div>
-
-                <div data-project-item-languages style="display: none;">Android, Java, XML, Sql, MVVM, Api </div>
-                <div data-project-item-demo style="display: none;"></div>
-              </a>
-            </li>
-
-            <!-- Speak Translate -->
-            <li class="project-item active" data-filter-item data-category="applications">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-speak-translate.png" data-project-item-img alt="finance"
-                    loading="lazy">
-                </figure>
-
-                <h3 class="project-title" data-project-item-title>Speak and Translate</h3>
-                <p class="project-category" data-project-item-category>Application</p>
-                <div data-project-item-description style="display: none;">
-                  Speak and Translate – Translator Master all languages is a voice translator and document translator
-                  tool.This app provide multiple features including offline translation, speech to translate, text to
-                  speech, voice interpreter - translator, document translator, translator master all language etc
-                  </br></br>
-                  Features:
-                  <ul>
-                    <li>★ All Languages Translator</li>
-                    <li>★ Interpreter voice translator </li>
-                    <li>★ Speech to Text Translator</li>
-                    <li>★ User Friendly Design</li>
-                  </ul>
-                </div>
-
-                <div data-project-item-languages style="display: none;">Android, Java, XML, Sql, MVVM, Api </div>
-                <div data-project-item-demo style="display: none;"></div>
-              </a>
-            </li>
-
-
-          </ul>
-        </section>
-
-        <div class="modal-container" data-modal-container-portpolio>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-            <div class="modal-close-btn" data-modal-close-btn-portpolio>
-              <ion-icon name="close-outline"></ion-icon>
-            </div>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Rajni Sakhreliya" data-project-img>
-              </figure>
-
-              <button class="demo-button" data-show-demo-button>Show Demo</button>
-            </div>
-
-            <div class="modal-content">
-              <h4 class="h3 modal-title" data-project-title></h4>
-              <div class="project-language" data-project-technologies></div>
-              <div data-project-text style="margin-top: 10px;" class="project-description"></div>
-            </div>
-          </section>
-        </div>
-      </article>
-
-      <!--
-        - #BLOG
-      -->
-
-      <!-- <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-                    <span class="dot"></span>
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-                </div>
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article> -->
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=opera%20crystal%20surat+(My%20Business%20Name)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-          </form>
-        </section>
-      </article>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- metas -->
+    <meta name="author" content="Rajni Sakhreliya" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="keywords"
+      content="Rajni, Rajni sakhreliya, Android Developer, React.Js Developer, Android Training, React.Js Training, React js, React js training"
+    />
+    <meta
+      name="description"
+      content="Personal website of Rajni sakhreliya, Android developer, Reactjs developer, Programming Training, Web Design, Rajni Sakhreliya"
+    />
+    <!-- title -->
+    <title>Rajni Sakhreliya | Home</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/front/img/favicon.ico"
+    />
+    <!-- plugin CSS -->
+    <link href="assets/front/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/front/css/font-awesome.css" rel="stylesheet" />
+    <link href="assets/front/css/et-icon-style.css" rel="stylesheet" />
+    <link href="assets/front/css/themify-icons.css" rel="stylesheet" />
+    <link href="assets/front/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="assets/front/css/magnific-popup.css" rel="stylesheet" />
+    <!-- theme css -->
+    <link href="assets/front/css/style.css" rel="stylesheet" />
+  </head>
+  <!-- Body Start -->
+
+  <body
+    data-spy="scroll"
+    data-target="#navbar-collapse-toggle"
+    data-offset="70"
+    class=""
+  >
+    <!-- page loading -->
+    <div id="loading">
+      <div class="load-circle"><span class="one"></span></div>
     </div>
-  </main>
+    <!-- End -->
 
+    <!-- Header -->
+    <div id="header-container"></div>
+    <script>
+      fetch("header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("header-container").innerHTML = data;
+        })
+        .catch((error) => console.error("Error loading header:", error));
+    </script>
+    <!-- End Header -->
 
+    <main>
+      <!-- Home Banner -->
+      <section id="home" class="home-banner">
+        <div class="hb-avatar d-flex align-items-end justify-content-center">
+          <img
+            src="assets/front/img/home-banner.png"
+            alt="Rajni Sakhreliya"
+            title="Rajni Sakhreliya"
+          />
+        </div>
+        <div class="container">
+          <div class="row align-items-center justify-content-end full-screen">
+            <div class="col-lg-6 info-box">
+              <div class="hb-typo">
+                <h6 class="cursor-default">Hi There, I&#039;m</h6>
+                <h1 class="cursor-pointer">Rajni Sakhreliya</h1>
+                <h2 class="cursor-default"><span id="type-it"></span></h2>
+                <div
+                  class="nav justify-content-center justify-content-lg-start"
+                >
+                  <a href="https://github.com/RajniSakhreliya" target="_blank"
+                    ><i class="fa fa-github"></i
+                  ></a>
+                  <a
+                    href="https://instagram.com/rajni_sakhreliya/"
+                    target="_blank"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/rajni-sakhreliya/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Home Banner -->
 
+      <!-- About -->
+      <section id="about" class="about-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 my-3 my-lg-0">
+              <div class="about-text">
+                <h2>I love being a developer !</h2>
+                <p>
+                  Hello, I am Rajni. The 28 years old is a Frontend Developer. I
+                  started programming in 2019 and continued to specialize in
+                  2022. These days, along with programming, I study about
+                  startups and businesses, and besides all this, I play the
+                  games and watch my favorite series. I am working
+                </p>
+                <div class="row counter">
+                  <div class="col-lg-5 col-6">
+                    <div class="counter-box my-3">
+                      <h5 class="count" data-to="30" data-speed="30">30</h5>
+                      <p>Completed projects</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="about-img">
+                <img
+                  src="assets/front/img/about-me.png"
+                  title="Rajni Sakhreliya"
+                  alt="Rajni Sakhreliya"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About -->
 
+      <!-- fun -->
+      <section class="section bg-gray-1">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-6 pr-lg-5 mb-5 mb-lg-0">
+              <div class="sm-title">
+                <h6>Skills</h6>
+                <p>
+                  Here you can see my skills, one of the fascinations of the
+                  computer world is the momentary changes of technologies, but I
+                  try to update my knowledge every day and experience new
+                  technologies.
+                </p>
+              </div>
 
+              <span class="skill-custom"> Java </span>
+              <span class="skill-custom"> Kotlin </span>
+              <span class="skill-custom"> Jetpack </span>
+              <span class="skill-custom"> Dagger </span>
+              <span class="skill-custom"> RxAndroid </span>
+              <span class="skill-custom"> Firebase </span>
+              <span class="skill-custom"> Push Notification </span>
+              <span class="skill-custom"> MVP </span>
+              <span class="skill-custom"> MySQL </span>
+              <span class="skill-custom"> React.js </span>
+              <span class="skill-custom"> HTML / CSS </span>
+              <span class="skill-custom"> Javascript </span>
+              <span class="skill-custom"> Tailwind CSS </span>
+              <span class="skill-custom"> Git </span>
+              <span class="skill-custom"> PHP </span>
+              <!-- end skill -->
+            </div>
 
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
+            <div class="col-lg-6 counter">
+              <div class="sm-title">
+                <h6>Language skill</h6>
+                <p>
+                  One of my hobbies is studying and learning languages. I try to
+                  be able to learn and use my favorite languages.
+                </p>
+              </div>
+              <div class="row">
+                <div class="col-6 m-15px-tb">
+                  <div class="feature-box-3 media align-items-center">
+                    <div class="icon percent">
+                      <span class="count" data-to="80" data-speed="80">80</span>
+                    </div>
+                    <div class="media-body">
+                      <h5>English</h5>
+                    </div>
+                  </div>
+                </div>
 
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+                <div class="col-6 m-15px-tb">
+                  <div class="feature-box-3 media align-items-center">
+                    <div class="icon percent">
+                      <span class="count" data-to="90" data-speed="90">90</span>
+                    </div>
+                    <div class="media-body">
+                      <h5>Hindi</h5>
+                    </div>
+                  </div>
+                </div>
 
-</body>
+                <div class="col-6 m-15px-tb">
+                  <div class="feature-box-3 media align-items-center">
+                    <div class="icon percent">
+                      <span class="count" data-to="100" data-speed="100"
+                        >100</span
+                      >
+                    </div>
+                    <div class="media-body">
+                      <h5>Gujrati</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End fun -->
 
+      <!-- Resume -->
+      <section class="section dark-section">
+        <div class="container">
+          <div class="row justify-content-center section-title">
+            <div class="col-lg-7 text-center">
+              <h2>My Experiences</h2>
+              <p>
+                One of the most beautiful parts of every person&#039;s life, the
+                part of their work life, I am very happy to have spent this part
+                of my life with the people I loved and it has made my interest
+                in my work more and more.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 m-15px-tb">
+              <div class="feature-box-2">
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <div class="testmonial-avatar">
+                    <img
+                      class="p-1 mx-auto d-block"
+                      src="images/experienceItem/logo_finance.png"
+                      width="100px"
+                    />
+                  </div>
+                  <div class="media align-items-center mb-0">
+                    <div class="icon">
+                      <i class="fa fa-briefcase"></i>
+                    </div>
+                    <div class="media-body">
+                      <h6>January 2024 - Now</h6>
+                    </div>
+                  </div>
+                </div>
+                <h5>
+                  Frontend Developer - Technofy Infotech
+                  <span class="text-warning">(Full Time)</span>
+                </h5>
+                <p>
+                  - Developed front-end for gaming and invoice projects.<br />
+                  - Built dynamic, interactive UIs using React.js and Redux.<br />
+                  - Improved workflows for better efficiency and data
+                  security.<br />
+                  - Analyzed performance and resolved issues for system.<br />
+                  - Researched and implemented modern tools and frameworks.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 m-15px-tb">
+              <div class="feature-box-2">
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <div class="testmonial-avatar">
+                    <img
+                      class="p-1 mx-auto d-block"
+                      src="images/experienceItem/logo_nfc.png"
+                      width="100px"
+                    />
+                  </div>
+                  <div class="media align-items-center mb-0">
+                    <div class="icon">
+                      <i class="fa fa-briefcase"></i>
+                    </div>
+                    <div class="media-body">
+                      <h6>2022 - 2024</h6>
+                    </div>
+                  </div>
+                </div>
+                <h5>
+                  Android Developer - S&K Technology
+                  <span class="text-warning">(Full time)</span>
+                </h5>
+                <p>
+                  - Business Card Scanner App: Reduced data entry time.<br />
+                  - NFC Scan Card: Enhanced NFC scan speed.<br />
+                  - Credit Card Compare App: Optimized comparison algorithms,
+                  increasing user savings by providing more accurate financial
+                  recommendations.<br />
+                  - UK Driving License App: Reached 1,00,000+ downloads in three
+                  months, improving user engagement and retention through
+                  intuitive UI design.<br />
+                  - Led the implementation of unit and UI tests, reducing bugs
+                  and ensuring high-quality, reliable apps.<br />
+                  - Troubleshooting application and code issues <br />
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-6 m-15px-tb">
+              <div class="feature-box-2">
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <div class="testmonial-avatar">
+                    <img
+                      class="p-1 mx-auto d-block"
+                      src="images/experienceItem/logo_android.png"
+                      width="100px"
+                    />
+                  </div>
+                  <div class="media align-items-center mb-0">
+                    <div class="icon">
+                      <i class="fa fa-briefcase"></i>
+                    </div>
+                    <div class="media-body">
+                      <h6>2019 - 2022</h6>
+                    </div>
+                  </div>
+                </div>
+                <h5>
+                  Android Developer - Diversity Infotech
+                  <span class="text-warning">(Full Time)</span>
+                </h5>
+                <p>
+                  - Created custom mobile applications using native
+                  technologies, leading to a increase in user retention for key
+                  clients.<br />
+                  - Integrated RESTful APIs, Google Maps API, Firebase, and
+                  third-party libraries, expanding app functionality and
+                  improving user satisfaction scores.<br />
+                  - Implemented Google AdMob and Facebook ads, driving an
+                  average revenue growth.<br />
+                  - Optimized app performance using libraries like Retrofit,
+                  Volley, OkHttp, Glide, and Picasso, reducing load times.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Resume -->
+
+      <!-- Call to action -->
+      <section class="call-to-action bg-theme">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 text-center text-lg-left my-3">
+              <h3>I Am Available For Freelancing Also!</h3>
+            </div>
+            <div class="col-lg-6 go-to text-center text-lg-right my-3">
+              <a class="px-btn px-btn-white" href="index.html#contactus"
+                >Hire Me Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Call to action -->
+
+      <!-- projects -->
+      <section id="project" class="section bg-gray-1">
+        <div class="container">
+          <div class="row justify-content-center section-title">
+            <div class="col-lg-8 text-center">
+              <h2>What have I created?</h2>
+              <p
+                style="
+                  display: -webkit-box;
+                  -webkit-line-clamp: 4;
+                  -webkit-box-orient: vertical;
+                  overflow: hidden;
+                "
+              >
+                Creating is always attractive and I tried to never deprive
+                myself of this pleasure, here you can see the projects where i
+                worked.
+              </p>
+            </div>
+          </div>
+          <div id="projects-container" class="row"></div>
+          <script src="/assets/front/js/projects.js"></script>
+        </div>
+      </section>
+      <!-- End projects -->
+
+      <!-- Contact -->
+      <section id="contactus" class="section">
+        <div class="container">
+          <div class="row justify-content-center section-title">
+            <div class="col-lg-7 text-center">
+              <h2>Get In Touch</h2>
+              <p>
+                Here you can let me know if you have any criticism, suggestion
+                or problem, I&#039;m waiting to hear your voice or see your
+                message.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 m-15px-tb">
+              <div class="contact-info">
+                <h4>What is your plan ? Call me</h4>
+                <p>
+                  You can get my contact information here and if you like, you
+                  can see the urls of my pages on social networks from the top
+                  of the page and find me there.
+                </p>
+                <ul>
+                  <li class="media">
+                    <div class="icon"><i class="icon-map"></i></div>
+                    <span class="media-body">Surat, Gujarat, India</span>
+                  </li>
+                  <li class="media">
+                    <div class="icon"><i class="icon-chat"></i></div>
+                    <span class="media-body">rajnisakhreliya@gmail.com</span>
+                  </li>
+                  <li class="media">
+                    <div class="icon"><i class="icon-mobile"></i></div>
+                    <span dir="ltr" class="media-body">+91 97270 88364</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact -->
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-container"></div>
+    <script>
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer-container").innerHTML = data;
+        })
+        .catch((error) => console.error("Error loading footer:", error));
+    </script>
+    <!-- End Footer -->
+
+    <script src="assets/front/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/front/js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="assets/front/js/jquery.appear.js"></script>
+    <script src="assets/front/js/popper.min.js"></script>
+    <script src="assets/front/js/bootstrap.min.js"></script>
+    <script src="assets/front/js/custom.js"></script>
+    <script
+      type="text/javascript"
+      src="assets/front/js/counter/jquery.countTo.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/front/js/magnific/jquery.magnific-popup.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/front/js/typeit-master/typeit.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/front/js/owl-carousel/js/owl.carousel.min.js"
+    ></script>
+    <script src="assets/panel/vendors/js/extensions/sweetalert2.all.min.js"></script>
+    <script>
+      $(function () {
+        new TypeIt("#type-it", {
+          speed: 200,
+          loop: true,
+          strings: [
+            "Android Developer",
+            "React.js Developer",
+            "Application Developer",
+          ],
+          breakLines: false,
+        });
+      });
+    </script>
+  </body>
 </html>
